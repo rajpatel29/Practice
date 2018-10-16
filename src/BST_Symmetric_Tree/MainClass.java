@@ -2,6 +2,7 @@
 
 package BST_Symmetric_Tree;
 
+// Time complexity : O(n)
 public class MainClass {
 	public static void main(String[] args) {
 		Node root = new Node(1);

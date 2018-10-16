@@ -1,5 +1,8 @@
 package BST_Diameter_of_Binary_Tree;
 
+// Time Complexity: O(n^2)
+// The above implementation can be optimized by calculating the height in the same recursion rather than 
+// calling a height() separately. 
 public class MainClass {
 	public static void main(String[] args) {
 		Node root = new Node(1);

@@ -1,5 +1,6 @@
 package BST_Morris_traversal;
 
+//Time Complexity : O(n) If we take a closer look, we can notice that every edge of the tree is traversed at-most two times. 
 public class MainClass {
 	public static void main(String[] args) {
 		Node root = new Node(1);

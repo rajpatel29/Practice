@@ -1,5 +1,6 @@
 package Array_Search_in_Sorted_and_Rotated;
 
+//	Time Complexity O(logn)
 public class MainClass {
 	public static void main(String[] args) {
 		int inputs[] = {5, 6, 7, 8, 9,10, 1,2,3,4};

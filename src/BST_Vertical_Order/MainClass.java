@@ -1,5 +1,8 @@
 package BST_Vertical_Order;
 
+// Time Complexity of hashing based solution can be considered as O(n) 
+// under the assumption that we have good hashing function that allows insertion and retrieval operations in O(1) time.
+// Space Complexity: O(n)
 public class MainClass {
 	public static void main(String[] args) {
 		Node root = new Node(1);

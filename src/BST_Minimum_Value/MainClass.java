@@ -1,5 +1,6 @@
 package BST_Minimum_Value;
 
+//Time Complexity: O(log n)
 public class MainClass {
 	public static void main(String[] args) {
 		BinarySearchTree bst = new BinarySearchTree();

@@ -1,8 +1,8 @@
 // I.M.P
 
-
 package BST_Largest_BST_subtree_in_Binary_Tree;
 
+// Time Complexity: O(n) where n is the number of nodes in the given Binary Tree.
 public class MainClass {
 	public static void main(String[] args) {
 		Node root = new Node(50);

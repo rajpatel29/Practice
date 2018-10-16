@@ -1,5 +1,7 @@
 package BST_Top_Bottom_view;
 
+// Time complexity : O(n)
+// Space complexity: O(n)
 public class MainClass {
 	public static void main(String[] args) {
 		Node root = new Node(20);

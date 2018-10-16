@@ -1,5 +1,7 @@
 package BST_Convert_BST_To_MinHeap_In_Place;
 
+// Time Complexity: O(n)
+// Space Complexity: O(n)
 public class MainClass {
 	public static void main(String[] args) {
 		Node root = new Node(4);

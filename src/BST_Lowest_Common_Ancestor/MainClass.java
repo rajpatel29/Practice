@@ -1,5 +1,6 @@
 package BST_Lowest_Common_Ancestor;
 
+// Time Complexity: O(log n)
 public class MainClass {
 	public static void main(String[] args) {
 		Node root = new Node(20);
