@@ -1,5 +1,7 @@
 package BST_Pair_with_Given_Sum;
 
+// Time Complexity O(n) time (See this for details). 
+// Space Complexity O(n) auxiliary space.
 public class MainClass {
 	public static void main(String[] args) {
 		Node root = new Node(5);

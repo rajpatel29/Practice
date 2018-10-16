@@ -1,5 +1,8 @@
 package BST_Check;
 
+//Time Complexity: O(n)
+//Space complexity of a recursive in order traversal O(h) and not O(n)
+
 public class MainClass {
 	public static void main(String[] args) {
 		Node root = new Node(20);

@@ -1,5 +1,6 @@
 package BST_Sorted_Sub_Sequence_Check;
 
+// Time complexity : O(n)
 public class MainClass {
 	public static void main(String[] args) {
 		int seq[] = {4, 6, 8, 12, 13};

@@ -1,5 +1,6 @@
 package BST_Inorder_Successor_and_Predecessor;
 
+// Time Complexity: O(h) where h is height of tree
 public class MainClass {
 	public static void main(String[] args) {
 		Node root = new Node(5);

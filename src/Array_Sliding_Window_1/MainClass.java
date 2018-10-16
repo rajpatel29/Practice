@@ -4,6 +4,7 @@ package Array_Sliding_Window_1;
 import java.util.HashMap;
 import java.util.PriorityQueue;
 
+// Time Complexity : O(N Log K)
 public class MainClass {
 	public static void main(String[] args) {
 		int input[] = {3, 3, 3, 4, 4, 2};

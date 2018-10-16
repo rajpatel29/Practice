@@ -1,9 +1,13 @@
-Self balancing BST
-Priority Queue
 HashTable
-all Sort algo
+
 Graph
-when to use what datatype?
-
-
+self balancing
 Do LRU again
+Time complexity of all data structure
+String problems
+
+
+
+Syntax
+
+PriorityQueue<Integer> queue = new PriorityQueue<Integer>((x, y) -> y - x);

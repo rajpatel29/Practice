@@ -1,10 +1,10 @@
 // Sliding Window Maximum (Maximum of all sub arrays of size k)
-// time complexity of the complete algorithm is O(kLogk + (n-k+1)*Logk) which can also be written as O(nLogk).
 
 package Array_Sliding_Window_2;
 
 import java.util.PriorityQueue;
 
+// Time complexity O(nLogk).
 public class MainClass {
 	public static void main(String[] args) {
 		int input[] = {8, 5, 10, 7, 9, 4, 15, 12, 90, 13};
@@ -12,7 +12,6 @@ public class MainClass {
 		
 		// perhaps heap
 		PriorityQueue<Integer> queue = new PriorityQueue<Integer>((x, y) -> y - x);
-		//
 		
 		for (int i = 0; i < K; i++) {
 			queue.add(input[i]);

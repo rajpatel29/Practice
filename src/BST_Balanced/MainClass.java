@@ -1,4 +1,3 @@
-
 //Consider a height-balancing scheme where following conditions should be checked to determine if a binary tree is balanced.
 //An empty tree is height-balanced. A non-empty binary tree T is balanced if:
 //1) Left subtree of T is balanced
@@ -6,6 +5,9 @@
 //3) The difference between heights of left subtree and right subtree is not more than 1.
 
 package BST_Balanced;
+
+// Time Complexity: O(n^2)
+//  Above implementation can be optimized by calculating the height in the same recursion rather than calling a height() function separately.
 
 public class MainClass {
 	public static void main(String[] args) {

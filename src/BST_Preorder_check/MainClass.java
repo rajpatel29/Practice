@@ -5,6 +5,8 @@ package BST_Preorder_check;
 
 import java.util.Stack;
 
+// Time complexity O(n) time. The idea is to use a stack
+
 public class MainClass {
 	public static void main(String[] args) {
 		int input[] = {35,20,10,19,25,24,29,55,40,59};
